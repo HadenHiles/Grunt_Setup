@@ -115,7 +115,7 @@ _Ignore this unless you want a different development environment than the live w
     * Additional task options
     * etc
 3. Change `./grunt/concurrent.js` tasks from `less:dev` & `uglify:dev` to `less:production` & `uglify:production`
-    * _Please note that "dev" and "production" are simply a target names and are not strict naming requirements_
+    * _Please note that "dev" and "production" are simply target names and are not strict naming requirements_
 
 ## Grunt File Watcher
 See wiki
