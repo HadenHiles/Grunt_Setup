@@ -92,6 +92,8 @@ _Ignore the fatal error - that's not relevant yet_
 #### Install Npm Modules
 1. cd into your theme directory (sitename/wp-content/themes/sitename)
 2. Run `npm install` _(make sure package.json is in theme dir)_
+3. Install grunt to your local project (theme)
+    * `npm install grunt --save-dev`
 
 ## Running
 
