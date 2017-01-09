@@ -120,10 +120,6 @@ _Ignore this unless you want a different development environment than the live w
 ## Grunt File Watcher
 See wiki
 
-## Authors
-
-* **Haden Hiles** - [haden@geekpower.ca](mailto:haden@geekpower.ca)
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE.md.
