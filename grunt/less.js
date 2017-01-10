@@ -7,7 +7,8 @@ module.exports = {
             paths: ["assets/css/src/"],
             compress: {
                 sequences: false
-            }
+            },
+            banner : '@charset "UTF-8";'
         },
         files: {
             // compilation.css  :  source.less
@@ -18,8 +19,8 @@ module.exports = {
     //production: {
     //    options: {
     //        paths: ["assets/css/src/"],
-    //        compress: true
-    //    },
+    //        compress: true,
+    //        banner : '@charset "UTF-8";'},
     //    files: {
     //        "assets/css/src/build.min.css": "assets/css/src/build.less"
     //    }
