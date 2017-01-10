@@ -11,7 +11,7 @@ module.exports = {
             }
         },
         files: {
-            'assets/js/src/build.min.js': ['assets/js/src/*.js']
+            'assets/js/build.min.js': ['assets/js/src/*.js']
         }
     },
     // Uncomment and modify to suite production needs

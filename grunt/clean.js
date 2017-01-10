@@ -5,8 +5,8 @@ module.exports = {
     options: {
         force: true
     },
-    src : [ "assets/css/src/build.less",
-        "assets/css/src/build.min.css",
-        "assets/js/src/build.min.js"
+    src : [ "assets/css/build.less",
+        "assets/css/build.min.css",
+        "assets/js/build.min.js"
     ]
 };

@@ -3,7 +3,7 @@
  * Allows for simultaneous running of tasks
  */
 module.exports = {
-    first: ['clean'],
+    //first: ['clean'],
     second: ['concat'],
     third: ['uglify:dev', 'less:dev']
 };

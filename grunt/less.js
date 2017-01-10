@@ -11,7 +11,7 @@ module.exports = {
         },
         files: {
             // compilation.css  :  source.less
-            "assets/css/src/build.min.css": "assets/css/src/build.less"
+            "assets/css/build.min.css": "assets/css/build.less"
         }
     },
     // Uncomment and modify to suite production needs

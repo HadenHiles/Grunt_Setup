@@ -7,6 +7,6 @@ module.exports = {
     },
     dev: {
         src: ['assets/css/src/*.less'],
-        dest: 'assets/css/src/build.less'
+        dest: 'assets/css/build.less'
     }
 };
