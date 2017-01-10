@@ -1,6 +1,5 @@
 .idea
 build.less
-build.css
 build.min.js
 build.min.css
 node_modules

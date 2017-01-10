@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546c4e06-9922-4af0-af45-3898b1194cd8" name="Default" comment="">
+    <list default="true" id="546c4e06-9922-4af0-af45-3898b1194cd8" name="Default" comment="set mangle to true for uglify production target">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/src/test.less" afterPath="$PROJECT_DIR$/assets/css/src/test.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/aliases.yaml" afterPath="$PROJECT_DIR$/grunt/aliases.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/clean.js" afterPath="$PROJECT_DIR$/grunt/clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/concat.js" afterPath="$PROJECT_DIR$/grunt/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/concurrent.js" afterPath="$PROJECT_DIR$/grunt/concurrent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/less.js" afterPath="$PROJECT_DIR$/grunt/less.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grunt/uglify.js" afterPath="$PROJECT_DIR$/grunt/uglify.js" />
     </list>
     <ignored path="Grunt_Setup.iws" />
@@ -51,31 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aliases.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aliases.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grunt/aliases.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.08614865">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/src/test.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06007067">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uglify.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grunt/uglify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -99,15 +74,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/grunt/less.js" />
         <option value="$PROJECT_DIR$/grunt/concat.js" />
-        <option value="$PROJECT_DIR$/grunt/uglify.js" />
         <option value="$PROJECT_DIR$/grunt/clean.js" />
         <option value="$PROJECT_DIR$/grunt/concurrent.js" />
         <option value="$PROJECT_DIR$/grunt/aliases.yaml" />
         <option value="$PROJECT_DIR$/assets/css/src/test.less" />
+        <option value="$PROJECT_DIR$/grunt/uglify.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -290,7 +265,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484055278268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-move build file locations outside of src dirs (much cleaner this way)&#10;-disable grunt-clean to speed up build until actually needed">
+      <created>1484056249019</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484056249019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,8 +282,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -322,25 +303,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="remove project files" />
     <MESSAGE value="temporarily don't igonore .idea so that it can be removed from repo" />
     <MESSAGE value="ignore .idea again" />
     <MESSAGE value="use grunt-contrib-clean force option to ensure cleaning of build files even if grunt is not executed from the same directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="use grunt-contrib-clean force option to ensure cleaning of build files even if grunt is not executed from the same directory" />
+    <MESSAGE value="-move build file locations outside of src dirs (much cleaner this way)&#10;-disable grunt-clean to speed up build until actually needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="-move build file locations outside of src dirs (much cleaner this way)&#10;-disable grunt-clean to speed up build until actually needed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28764805">
@@ -372,14 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/uglify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grunt/clean.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -404,18 +371,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/aliases.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/src/test.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06007067">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/uglify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5456081">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grunt/aliases.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08614865">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>

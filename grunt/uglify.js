@@ -17,7 +17,7 @@ module.exports = {
     // Uncomment and modify to suite production needs
     //production: {
     //    options: {
-    //        mangle: false, //keep original var/function/etc names for debugging in browser
+    //        mangle: true, // further minify files
     //        paths: ["assets/js/src/"],
     //        compress: {
     //            sequences: false
