@@ -46,7 +46,7 @@ _Ignore the fatal error - that's not relevant yet_
 
 ## Installing to your Project
 
-1. Download this [zip](https://docs.google.com/uc?export=download&id=0B2w9OoOSDAq1dHJidk1zZkFkcEU)
+1. Download this [zip](https://docs.google.com/uc?export=download&id=0B2w9OoOSDAq1SFFXRHlxZkJQd0k)
 2. Extract zip into root of project
 3. Resolve any conflicts with existing project files
 4. Compare file structure with example below
