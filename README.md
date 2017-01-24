@@ -8,7 +8,6 @@ This grunt setup will give you:
 - Simple deployment
 - Pretty console output for task execution times
 - System notifications (optional)
-- Step by step guide to setting up a File Watcher for Grunt in PhpStorm
 
 ## Getting Started
 
@@ -27,12 +26,6 @@ Install the [Grunt command line interface](http://gruntjs.com/getting-started)
 ```
 npm install -g grunt-cli
 ```
-
-Add npm to your system path so that grunt-cli can be accessed globally
-
-1. Search for "Environment Variables" in the control panel
-2. Click "Edit environment variables for your account"
-3. Modify Path to point to your npm installation (likely C:\Users\<username>\AppData\Roaming\npm)
 
 Make sure grunt works globally
 
@@ -53,57 +46,57 @@ _Ignore the fatal error - that's not relevant yet_
 
 ## Installing to your Project
 
-1. Download this repo (zip)
-2. Extract zip into \<sitename>/wp-content/themes/\<sitename>
+1. Download this zip
+2. Extract zip into root of project
 3. Resolve any conflicts with existing project files
 4. Compare file structure with example below
 
 #### File structure
 
 ```
-/sitename
-    ./wp-content
-        ./themes
-            ./sitename
-                ./assets
-                    ./css
-                        ./src
-                            stylesheet.less
-                            anotherstylesheet.less
-                            ...
-                    ./js
-                        ./src
-                            sourcefile.js
-                            anothersourcefile.js
-                            ...
-                ./grunt
-                    aliases.yaml
-                    concat.js
-                    concurrent.js
-                    less.js
-                    notify.js (optional)
-                    uglify.js
-                    ... any tasks you want
-                .gitignore
-                gruntfile.js
-                package.json
+/project
+    ./_assets
+        ./css
+            ./src
+                stylesheet.less
+                anotherstylesheet.less
+                ...
+        ./js
+            ./src
+                sourcefile.js
+                anothersourcefile.js
+                ...
+    ./grunt
+        aliases.yaml
+        concat.js
+        concurrent.js
+        less.js
+        notify.js (optional)
+        uglify.js
+        ... any tasks you want
+    gruntfile.js
+    package.json
 ```
 
 #### Install Npm Modules
-1. cd into your theme directory (sitename/wp-content/themes/sitename)
+1. cd into your project directory (open terminal from PhpStorm)
 2. Run `npm install` _(make sure package.json is in theme dir)_
+
+## Source Files
+- .less files in `_assets/css/src` will be compiled into `_assets/css/build.min.css`
+- .js files in `_assets/js/src` will be compiled into `_assets/js/build.min.js`
 
 ## Running
 
-1. Navigate to your theme directory and run `grunt` or `grunt -v` for more details
+1. Navigate to your project directory and run `grunt` or `grunt -v` for more details
 2. Watch as grunt does it's magic
 
 #### ▂▃▅▇█▓▒░ THE MORE YOU KNOW ░▒▓█▇▅▃▂
 
-- The `concat.js` task concatenates all `.less` files within `assets/css/src` into `assets/css/src/build.less`
-- The `less.js` task compresses `build.less` into build.min.css (this is the only stylesheet you need to reference)
-- The `uglify.js` task concatenates and compresses all `.js` files within `assets/js/src` into `assets/js/src/build.min.js`
-- `concurrent.js` specifies what tasks to run synchronously in what order, etc
+- The `concat.js` task concatenates all `.less` files within `_assets/css/src` into `_assets/css/build.less`
+- The `less.js` task compresses `build.less` into `build.min.css` (this is the only stylesheet you need to reference)
+- The `uglify.js` task concatenates and compresses all `.js` files within `_assets/js/src` into `_assets/js/build.min.js`
+- `concurrent.js` specifies what tasks to run synchronously, in what order, etc
 
 ## Production Deployment
 

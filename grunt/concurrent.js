@@ -5,5 +5,7 @@
 module.exports = {
     //first: ['clean'],
     second: ['concat'],
-    third: ['uglify:dev', 'less:dev']
+    third: ['uglify:dev', 'less:dev'],
+    less: [['concat'], 'less:dev'],
+    uglify: ['uglify:dev']
 };

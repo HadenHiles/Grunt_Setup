@@ -6,7 +6,7 @@ module.exports = {
         nonull: true //Don't silently compile files without a warning
     },
     dev: {
-        src: ['assets/css/src/*.less'],
-        dest: 'assets/css/build.less'
+        src: ['_assets/css/src/*.less'],
+        dest: '_assets/css/build.less'
     }
 };
