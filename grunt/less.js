@@ -5,9 +5,7 @@ module.exports = {
     dev: {
         options: {
             paths: ["_assets/css/src/"],
-            compress: {
-                sequences: false
-            },
+            compress: true,
             banner : '@charset "UTF-8";'
         },
         files: {
